@@ -1,5 +1,5 @@
 {
-  "name": "quill-markdown-shortcuts",
+  "name": "quill-markdown-shortcuts-new",
   "version": "0.0.10",
   "description": "Quill.js module that converts markdown to rich text formatting while typing. ",
   "main": "dist/markdownShortcuts.js",
@@ -11,8 +11,8 @@
   },
   "author": "Patrick Lee",
   "license": "MIT",
-  "dependencies": {
-    "quill": "^1.3.5"
+  "peerDependencies": {
+    "quill": "^2.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
